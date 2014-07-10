@@ -25,5 +25,5 @@ Clear out the db_cache directory every morning at 5am.
 
 ## Change Log
 
-- Version 1.1
+- 1.1
 	- Updated plugin to be 2.0 compatible
