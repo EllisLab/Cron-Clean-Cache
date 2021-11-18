@@ -61,8 +61,15 @@ class Cron_clean_cache {
         }
 
 		$which = $this->security_check($which);
+die();
+		if (! is_dir(SYSPATH.'cache/'.$which))
+		{
+			ee()->logger->developer('Cron Clean Cache: '.SYSPATH.'cache/'.$which.' is not a directory');
 
-	  	$this->delete_directory(APPPATH.'cache/'.$which);
+			return true;
+		}
+
+	  	$this->delete_directory(SYSPATH.'cache/'.$which);
     }
 
     // --------------------------------------------------------------------
