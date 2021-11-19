@@ -30,6 +30,10 @@ will delete at one time. The default is 150.
 
 ## Change Log
 
+- 1.3
+	- Updated license information
+	- Added add-on icon
+	- Added check to make sure directory exists
 - 1.2
 	- Updated plugin to be 3.0 compatible
 - 1.1
